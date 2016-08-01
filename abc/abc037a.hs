@@ -1,0 +1,1 @@
+main = getLine >>= print . (\[a,b,c] -> c`div`(min a b)) . map read . words

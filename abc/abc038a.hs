@@ -1,0 +1,1 @@
+main=getLine>>=putStrLn.(\s->if last s=='T' then"YES"else"NO")
